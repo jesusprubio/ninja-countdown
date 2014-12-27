@@ -1,0 +1,40 @@
+{
+  "name": "ninja-countdown",
+  "description": "Element implementing a simple countdown.",
+  "authors": [
+    "Jesús Pérez (http://jesusprubio.name)"
+  ],
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "countdown",
+    "timer",
+    "paper"
+  ],
+  "main": "ninja-countdown.html",
+  "homepage": "https://github.com/jesusprubio/ninja-countdown/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/components/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.2",
+    "paper-button": "Polymer/paper-button#~0.5.2",
+    "moment": "~2.8.4"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^2.0.5"
+  },
+  "_release": "b488e29dd0",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "b488e29dd0a8f848d10fc7fa12de43f33d727329"
+  },
+  "_source": "git://github.com/jesusprubio/ninja-countdown.git",
+  "_target": "master",
+  "_originalSource": "jesusprubio/ninja-countdown",
+  "_direct": true
+}
