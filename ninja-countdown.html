@@ -140,24 +140,24 @@ Element implementing a simple countdown.
                 // To avoid the 00:00:00
 
                 // Building the initial time
+                // just in case
                 if (!(this.initHours || this.startFromMins || this.initSecs)) {
                     this.initSecs = '15';
+                }
+                if (this.initHours) {
+                    this.printedTime = this.initHours;
                 } else {
-                    if (this.initHours) {
-                        this.printedTime = this.initHours;
-                    } else {
-                        this.printedTime = '00';
-                    }
-                    if (this.startFromMins) {
-                        this.printedTime = this.printedTime + this.startFromMins;
-                    } else {
-                        this.printedTime = this.printedTime + '00';
-                    }
-                    if (this.initSecs) {
-                        this.printedTime = this.printedTime + this.initSecs;
-                    } else {
-                        this.printedTime = this.printedTime + '00';
-                    }
+                    this.printedTime = '00';
+                }
+                if (this.startFromMins) {
+                    this.printedTime = this.printedTime + this.startFromMins;
+                } else {
+                    this.printedTime = this.printedTime + '00';
+                }
+                if (this.initSecs) {
+                    this.printedTime = this.printedTime + this.initSecs;
+                } else {
+                    this.printedTime = this.printedTime + '00';
                 }
 
                 this.passedTime = this.printedTime;
