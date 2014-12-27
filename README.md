@@ -9,5 +9,5 @@ Inspired in the [flip-clock](https://github.com/Granze/flip-clock) element.
 Install using [Bower](http://bower.io):
 
 ```shell
- bower install flip-clock
+ bower install ninja-countdown
 ```
