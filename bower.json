@@ -1,6 +1,6 @@
 {
   "name": "ninja-countdown",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Element implementing a simple countdown.",
   "authors": [ "Jesús Pérez (http://jesusprubio.name)"],
   "keywords": [
