@@ -15,7 +15,8 @@
   "homepage": "https://github.com/jesusprubio/ninja-countdown/",
   "ignore": [
     "/.*",
-    "/test/"
+    "/test/",
+    "/components/"
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^0.5.2",
