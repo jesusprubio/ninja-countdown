@@ -31,7 +31,7 @@ Element implementing a simple countdown.
 @homepage http://github.com/jesusprubio/ninja-countdown
 -->
 
-<polymer-element name="ninja-countdown" attributes="auto controlPanel showHours showMins
+<polymer-element name="ninja-countdown" attributes="auto showPanel showHours showMins
                                                     showSecs initHours initMins initSecs">
     <template>
 
@@ -136,9 +136,6 @@ Element implementing a simple countdown.
             },
 
             ready : function() {
-                // TODO: We need to allow only to print one char always?only when secs! ie:05
-                // To avoid the 00:00:00
-
                 // Building the initial time
                 // just in case
                 if (!(this.initHours || this.startFromMins || this.initSecs)) {
