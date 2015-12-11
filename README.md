@@ -1,3 +1,5 @@
+UNMAINTAINED!
+
 ninja-countdown
 ===============
 
